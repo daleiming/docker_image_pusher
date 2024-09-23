@@ -5,6 +5,7 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
---platform=linux/amd64  docker:dind
---platform=linux/arm64 docker:dind 
+#--platform=linux/amd64  docker:dind
+#--platform=linux/arm64 docker:dind 
 
+docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
