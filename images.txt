@@ -10,6 +10,7 @@
 
 #docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 
---platform=linux/arm64 steezypunk/base-debian-python27:2.7.18
---platform=linux/arm64 realcbb/python2-java8-alpine:1.0
---platform=linux/arm64 trourest186/nginx-python2:latest
+#--platform=linux/arm64 steezypunk/base-debian-python27:2.7.18
+#--platform=linux/arm64 realcbb/python2-java8-alpine:1.0
+#--platform=linux/arm64 trourest186/nginx-python2:latest
+--platform=linux/arm64 docker.io/library/alpine:latest
