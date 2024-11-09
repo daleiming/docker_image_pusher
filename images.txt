@@ -14,4 +14,21 @@
 #--platform=linux/arm64 realcbb/python2-java8-alpine:1.0
 #--platform=linux/arm64 trourest186/nginx-python2:latest
 #--platform=linux/arm64 docker.io/library/alpine:latest
---platform=linux/arm64 kubespheredev/java-8-centos7:latest
+#--platform=linux/arm64 kubespheredev/java-8-centos7:latest
+
+authzed/spicedb:v1.30.0
+postgres:16.2-alpine
+nats:2.10.9-alpine
+nginx:1.25.4-alpine
+redis:7.2.4-alpine
+jaegertracing/all-in-one:1.60
+
+magistrala/vernemq:latest
+magistrala/auth:latest
+magistrala/invitations:latest
+magistrala/things:latest
+magistrala/users:latest
+magistrala/mqtt:latest
+magistrala/http:latest
+magistrala/ws:latest
+magistrala/ui:latest
