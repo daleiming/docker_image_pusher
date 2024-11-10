@@ -34,6 +34,18 @@
 #magistrala/ui:latest
 #magistrala/coap:latest
 
-timescale/timescaledb:2.13.1-pg16
-magistrala/timescale-writer:latest
+#timescale/timescaledb:2.13.1-pg16
+#magistrala/timescale-writer:latest
+#magistrala/timescale-reader:latest
+
+magistrala/provision:latest
 magistrala/timescale-reader:latest
+magistrala/timescale-writer:latest
+magistrala/postgres-writer:latest
+magistrala/postgres-reader:latest
+magistrala/journal:latest
+magistrala/bootstrap:latest
+ghcr.io/absmach/certs:latest
+
+
+
