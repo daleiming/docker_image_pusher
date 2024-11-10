@@ -32,5 +32,8 @@
 #magistrala/http:latest
 #magistrala/ws:latest
 #magistrala/ui:latest
+#magistrala/coap:latest
 
-magistrala/coap:latest
+timescale/timescaledb:2.13.1-pg16
+magistrala/timescale-writer:latest
+magistrala/timescale-reader:latest
