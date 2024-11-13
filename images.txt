@@ -38,14 +38,14 @@
 #magistrala/timescale-writer:latest
 #magistrala/timescale-reader:latest
 
-magistrala/provision:latest
-magistrala/timescale-reader:latest
-magistrala/timescale-writer:latest
-magistrala/postgres-writer:latest
-magistrala/postgres-reader:latest
-magistrala/journal:latest
-magistrala/bootstrap:latest
-ghcr.io/absmach/certs:latest
-
+#magistrala/provision:latest
+#magistrala/timescale-reader:latest
+#magistrala/timescale-writer:latest
+#magistrala/postgres-writer:latest
+#magistrala/postgres-reader:latest
+#magistrala/journal:latest
+#magistrala/bootstrap:latest
+#ghcr.io/absmach/certs:latest
+gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-cpu:1.0.0
 
 
