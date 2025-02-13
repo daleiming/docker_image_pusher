@@ -46,6 +46,15 @@
 #magistrala/journal:latest
 #magistrala/bootstrap:latest
 #ghcr.io/absmach/certs:latest
-gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-cpu:1.0.0
+#gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-cpu:1.0.0
+
+apache/doris:be-3.0.3
+apache/doris:fe-3.0.3
+apache/doris:ms-3.0.3
+apache/doris:fe-ubuntu-2.1.7
+apache/doris:be-ubuntu-2.1.7
+
+
+
 
 
