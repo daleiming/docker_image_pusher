@@ -53,10 +53,16 @@
 #apache/doris:ms-3.0.3
 #apache/doris:fe-ubuntu-2.1.7
 #apache/doris:be-ubuntu-2.1.7
-pi4k8s/kkfileview:4.4.0-arm64
---platform=linux/amd64 pi4k8s/kkfileview:4.4.0
-
-
+#pi4k8s/kkfileview:4.4.0-arm64
+#--platform=linux/amd64 pi4k8s/kkfileview:4.4.0
+--platform=linux/arm64 docker.io/istio/proxyv2:1.28.1
+--platform=linux/arm64 docker.io/istio/pilot:1.28.1
+--platform=linux/arm64 docker.io/istio/install-cni:1.28.1
+--platform=linux/arm64 docker.io/istio/ztunnel:1.28.1
+--platform=linux/arm64 docker.io/prom/prometheus:v3.5.0
+--platform=linux/arm64 docker.io/grafana/grafana:12.0.1
+--platform=linux/arm64 docker.io/jaegertracing/all-in-one:1.70.0
+--platform=linux/arm64 quay.io/kiali/kiali:v2.17
 
 
 
