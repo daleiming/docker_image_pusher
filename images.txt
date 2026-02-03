@@ -63,9 +63,15 @@
 #--platform=linux/arm64 docker.io/grafana/grafana:12.0.1
 #--platform=linux/arm64 docker.io/jaegertracing/all-in-one:1.70.0
 #--platform=linux/arm64 quay.io/kiali/kiali:v2.17
---platform=linux/arm64 docker.io/grafana/loki:3.5.5
---platform=linux/arm64 docker.io/kiwigrid/k8s-sidecar:1.30.10
---platform=linux/arm64 ghcr.io/prometheus-operator/prometheus-config-reloader:v0.85.0
+#--platform=linux/arm64 docker.io/grafana/loki:3.5.5
+#--platform=linux/arm64 docker.io/kiwigrid/k8s-sidecar:1.30.10
+#--platform=linux/arm64 ghcr.io/prometheus-operator/prometheus-config-reloader:v0.85.0
+apachestreampipes/backend:0.98.0
+apachestreampipes/ui:0.98.0
+apachestreampipes/extensions-all-iiot:0.98.0
+couchdb:3.3.1
+influxdb:2.6
+nats
 
 
 
